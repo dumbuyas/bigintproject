@@ -27,14 +27,9 @@ In this project we implemented bigint class for arbitrary precision integers usi
         bigint c("-1234");
         std::cout << "a==b:" << (a == b) << '\n'; //return 1 meaning true becuase a==b.
         std::cout << "b==c:" << (b == c) << '\n'; //return 0 meaning false becuase b!=c.
-
-
-
  //%%%%%%%%%%%%%%%%% test for the Negation
         bigint a(-2345);
         std::cout << "Original copy:" << a << ",Negated:" << -a << '\n';  //output 2345
-
-
  //%%%%%%%%% test the operator +=
          bigint v("100");
          bigint w("1");
@@ -49,8 +44,7 @@ In this project we implemented bigint class for arbitrary precision integers usi
         bigint d(681);
         bigint m(79);
         bigint x = d - m;
-        std::cout << "print result:x=d-m:" << x << '\n';  //result=602
-
+        std::cout << "print result:x=d-m:" << x << '\n';  //result=60
 //%%%%
 bigint a("450986877907696509804558906689048948977569868979878956987865749856878978754");
 bigint b("43969677096976090709596679070079877796596696869");
@@ -58,5 +52,4 @@ bigint c = a * b;
 std::cout << "product of a and b:" << c << '\n';//output: 19829747396574795730948367549568425857958025553818652499112849798476142718119109997672646491207586450973537230918429321226.
 
 
-
-author Samba Dumbuya
+Author: Samba Dumbuya
